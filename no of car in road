@@ -1,0 +1,22 @@
+int main() {
+     int a=243;
+    int b=136;
+    int c=567;
+    int car=17;
+    if(a%17==0)
+    {
+      printf("cars in road a",a);
+    }
+      else if(b%17==0) 
+{
+    printf("cars in road b",b);
+}
+     else if(c%17==0)
+{ 
+    printf("cars in road c",c);
+}
+else
+{
+    printf("no road");
+}
+}
