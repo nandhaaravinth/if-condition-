@@ -1,0 +1,22 @@
+int main()
+{
+int accbal=2000;
+int wdant=1571;
+
+if(accbal>wdant)
+{
+ if(wdant % 100==0) 
+ {
+     printf("with draw success..");
+ }
+else
+ {
+  printf("invalid denaminatoin..");
+ }
+}
+else
+{
+    printf("insufficient balance..");
+}
+return 0;
+}
