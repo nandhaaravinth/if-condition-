@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    int totalamount=14500;
+    if (totalamount>1000&&totalamount<3000)
+    {
+        printf("10%% discount...");
+    
+    }
+    else if(totalamount>3001&&totalamount>5000)
+    {
+        printf("30%% discount...");
+ } 
+ else if (totalamount>5004&&totalamount>10000)
+{
+    printf("40%% discount...");
+}
+else if (totalamount>1001&&totalamount>11000)
+    {
+        printf("60%% discount...");
+    }
+}
+    
+
