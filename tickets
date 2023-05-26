@@ -1,0 +1,17 @@
+int main()
+{
+int age;
+scanf("%d",&age); 
+if (age<13)
+
+{
+    printf("child ticket");
+}
+else if(age>13 && age <60)
+  {
+ printf("normal ticket\n");
+ 
+}
+else
+printf("senior citizen ticket");
+}
