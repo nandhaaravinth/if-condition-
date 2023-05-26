@@ -1,0 +1,21 @@
+int main()
+{
+int num=96;
+if (num%2==0 && num%3==0)
+{ 
+    printf("chandigarp...");
+}
+else if(num%2==0)
+{printf("pupnjab...");
+}
+else if (num%3==0)
+{
+printf("delhi..");
+}
+else 
+{
+    printf("tamilnadu");
+    
+}
+    
+}
