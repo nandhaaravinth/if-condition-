@@ -1,0 +1,11 @@
+\\\\\\int main() {
+  int num=21;
+ 
+  if (num%==0)
+  {
+printf("even nu");
+}
+else
+{printf("odd nu");
+}
+}
