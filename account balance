@@ -1,0 +1,12 @@
+int main()
+{
+ float balance=23456;
+ float withdraw=1200;
+ if (balance>withdraw)
+ { printf ("withdrawal success...");
+ }
+ else
+ {
+     printf("insuffecient balance...");
+ }
+}
