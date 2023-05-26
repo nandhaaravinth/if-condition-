@@ -1,0 +1,14 @@
+int main()
+{
+ int minimumhigh=5.70; 
+ int maximumhigh=4.10;
+
+  if(minimumhigh>maximumhigh)
+  {
+printf("maximum is higher");
+}
+else
+{
+   printf("minimum higher");
+}
+}
