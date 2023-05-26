@@ -1,0 +1,12 @@
+int main() 
+{ 
+    char ch='A';
+    if(ch='A'&& ch<='z')
+        printf("upper case..");
+        else if(ch>='a'&&ch<='z')
+        printf("lower case...");
+        else if(ch>='0'&& ch<='a')
+        printf("digital....");
+        else
+        printf("special symbol..");
+}
