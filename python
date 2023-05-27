@@ -1,0 +1,9 @@
+int main()
+{
+    int num=5;
+ while(num>0)
+ {
+     printf("python\n");
+     num--;
+ }
+ }
