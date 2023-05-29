@@ -1,0 +1,13 @@
+int main() {
+   
+    int arr[5]={1,2,3,4,5};
+    int element=4;
+    if(element==arr[4])
+     { 
+         printf("element is found");
+     }
+     else
+     {
+         printf("element not found");
+     }
+}
