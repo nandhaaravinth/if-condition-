@@ -1,0 +1,15 @@
+int main() {
+   int a[5]={5,1,7,6,2};
+   int min;
+   int max;
+   max=min=a[0];
+   for(int i=0;i<5;i++)
+   {
+     if(max<a[i])
+     max=a[i];
+     if(min>a[i])
+     min=a[i];
+   }
+   printf("minmum: %d\n maximum: %d",min,max);
+ }
+
