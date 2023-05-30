@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+ int size, i, j;
+ printf("Enter the size of the 'x' pattern: ");
+ scanf("%d", &size);
+ for (i = 1; i <= size; i++)
+ {
+  for (j = 1; j <= size; j++)
+  {
+   if (i == j || j == (size-i+1))
+   {
+    printf("*");
+   } 
+   else
+   {
+    printf(" ");
+   }
+  }
+  printf("\n");
+ }
+ return 0;
+}
+
+
+
