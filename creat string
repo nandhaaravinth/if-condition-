@@ -1,0 +1,6 @@
+int main() {
+ char[]="hello";
+ 
+ printf("%s",strrev(str));
+}
+    
