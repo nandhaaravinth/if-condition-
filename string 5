@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+   char str 1[]="hello";
+   char str 2[]="hello";
+   printf("%d",str cmp(str 1,str 2));
+   return 0;
+}
