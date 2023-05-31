@@ -1,0 +1,7 @@
+int main() {
+ char[]="hello";
+ int len=str len(str);
+ printf("%d",len);
+}
+    
+    
