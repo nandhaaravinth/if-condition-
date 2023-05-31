@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+char str 1[]="HELLO";
+char str 2[];
+str cat(str 2,str1);
+printf("%s",str2);
+return 0;
+}
+    
