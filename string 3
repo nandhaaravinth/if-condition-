@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() 
+{
+char str 1[]="HELLO";
+char str 2[]="world";
+str cat (str 2,str 1);
+print("%s",str2);
+return 0;
+}
